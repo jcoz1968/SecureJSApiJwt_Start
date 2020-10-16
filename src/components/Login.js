@@ -9,7 +9,6 @@ export const Login = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [loginError, setLoginError] = useState("");
-
   const onChangeUsername = (username) => setUserName(username);
   const onChangePassword = (password) => setPassword(password);
   const history = useHistory();
